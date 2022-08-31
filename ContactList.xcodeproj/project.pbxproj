@@ -69,6 +69,7 @@
 				C8BD44C128BE9D11005CA6DE /* Models */,
 				C8BD44C228BE9D24005CA6DE /* ViewControllers */,
 				C8BD44C328BE9D3E005CA6DE /* Storyboards */,
+				C8BE29D328BF370E00B433E0 /* Services */,
 				C8BD44C428BE9D52005CA6DE /* SupportFiles */,
 				C8128B5F28BDFC6F00903220 /* Info.plist */,
 			);
@@ -86,9 +87,9 @@
 		C8BD44C228BE9D24005CA6DE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C8BD44BD28BE98A3005CA6DE /* TabBarController.swift */,
 				C8128B6528BDFDBC00903220 /* PersonListViewController.swift */,
 				C8128B6B28BE0F6600903220 /* PersonDetailViewController.swift */,
-				C8BD44BD28BE98A3005CA6DE /* TabBarController.swift */,
 				C8BD44BF28BE9CC6005CA6DE /* PersonInfoListViewController.swift */,
 			);
 			path = ViewControllers;
@@ -106,12 +107,19 @@
 		C8BD44C428BE9D52005CA6DE /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				C8128B6928BDFF4E00903220 /* DataManager.swift */,
 				C8128B5128BDFC6D00903220 /* AppDelegate.swift */,
 				C8128B5328BDFC6D00903220 /* SceneDelegate.swift */,
 				C8128B5A28BDFC6F00903220 /* Assets.xcassets */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		C8BE29D328BF370E00B433E0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C8128B6928BDFF4E00903220 /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

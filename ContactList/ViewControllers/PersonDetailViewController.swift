@@ -19,8 +19,5 @@ final class PersonDetailViewController: UIViewController {
         title = person.fullName
         emailLabel.text = person.email
         phoneLabel.text = person.phone
-
     }
-
-
 }

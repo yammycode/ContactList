@@ -16,6 +16,7 @@ struct Person {
     }
 }
 
+// MARK: - Data generator
 extension Person {
     static func getPersons() -> [Person] {
         var persons: [Person] = []
@@ -25,7 +26,8 @@ extension Person {
         let emails = personsData.emails.shuffled()
         let phones = personsData.phones.shuffled()
 
-        for (personIndex, firstName) in personsData.firstNames.shuffled().enumerated() {
+        // firstNames не миксуем, так как будем сортировать потом по алфавиту
+        for (personIndex, firstName) in personsData.firstNames.enumerated() {
             if personIndex >= lastNames.count ||
                 personIndex >= phones.count ||
                 personIndex >= emails.count {
